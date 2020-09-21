@@ -162,7 +162,7 @@ def team_names
   end
 end
 
-def player_numnbers(team_name)
+def player_numbers(team_name)
   jerseys = []
   game_hash.each do |team, value|
     if value[:team_name] == team_name
