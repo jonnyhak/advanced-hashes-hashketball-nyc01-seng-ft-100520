@@ -174,7 +174,7 @@ def player_numbers(team_name)
   jerseys
 end 
 
-def player_stats(player_name)
+def big_shoe_rebounds(player_name)
   max = 0
   biggest = ""
   game_hash.each do |team, value|
