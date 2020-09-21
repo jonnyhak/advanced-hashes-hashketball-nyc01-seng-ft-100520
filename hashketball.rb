@@ -181,7 +181,6 @@ def player_stats(name)
           return player 
         end
       end
-    end
   end
 end
   
