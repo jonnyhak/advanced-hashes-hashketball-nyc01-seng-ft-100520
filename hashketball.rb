@@ -176,9 +176,10 @@ end
 
 def player_stats(name)
   game_hash.each do |team, value|
-    if value[:team_name] == team_name
       value[:players].each do |player|
-        jerseys.push(player[:number])
+        if player[:player_name] == name
+          return player 
+        end
       end
     end
   end
